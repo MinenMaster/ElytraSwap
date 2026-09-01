@@ -1,6 +1,8 @@
 # ElytraSwap
 
-A NeoForge mod for Minecraft 1.21.1 that lets you replace the Elytra found in End Ship item frames with any other item... vanilla or modded.
+A mod that lets you replace the Elytra found in End Ship item frames with any other item... vanilla or modded.
+
+Similar to mods/datapacks like "No Elytra" or "Remove Elytra", but better ;)
 
 ## Features
 

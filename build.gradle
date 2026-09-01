@@ -3,6 +3,7 @@ plugins {
     id 'maven-publish'
     id 'net.neoforged.moddev' version '2.0.144'
     id 'idea'
+    id 'com.modrinth.minotaur' version '2.+'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -176,6 +177,17 @@ publishing {
             url "file://${project.projectDir}/repo"
         }
     }
+}
+
+modrinth {
+    token = System.getenv("MODRINTH_TOKEN")
+    projectId = "endship-elytraswap"
+    versionNumber = mod_version
+    versionType = project.findProperty("modrinthVersionType") ?: "release"
+    uploadFile = tasks.named("jar")
+    gameVersions = [minecraft_version]
+    loaders = ["neoforge"]
+    changelog = System.getenv("CHANGELOG") ?: "See GitHub release notes."
 }
 
 tasks.withType(JavaCompile).configureEach {
