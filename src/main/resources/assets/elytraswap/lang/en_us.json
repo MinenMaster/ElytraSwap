@@ -9,5 +9,11 @@
   "examplemod.configuration.items": "Item List",
   "examplemod.configuration.logDirtBlock": "Log Dirt Block",
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "examplemod.configuration.magicNumber": "Magic Number"
+  "examplemod.configuration.magicNumber": "Magic Number",
+
+  "elytraswap.configuration.replacementItem": "Replacement Item",
+  "elytraswap.configuration.replacementItem.tooltip": "The item to place in the End Ship item frame instead of an Elytra. (default: 'minecraft:diamond_block')",
+  "elytraswap.configuration.title": "ElytraSwap",
+  "elytraswap.configuration.section.elytraswap.common.toml": "General",
+  "elytraswap.configuration.section.elytraswap.common.toml.title": "General Settings"
 }
