@@ -1,5 +1,8 @@
 # ElytraSwap
 
+[![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/endship-elytraswap)
+[![View on GuitHub](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy-minimal/available/github_vector.svg)](https://github.com/MinenMaster/ElytraSwap)
+
 A mod that lets you replace the Elytra found in End Ship item frames with any other item... vanilla or modded.
 
 Similar to mods/datapacks like "No Elytra" or "Remove Elytra", but better ;)
