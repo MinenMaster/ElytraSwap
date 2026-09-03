@@ -1,3 +1,5 @@
+![ElytraSwap Logo](https://github.com/MinenMaster/ElytraSwap/blob/main/src/main/resources/assets/elytraswap/elytraswap.png)
+
 # ElytraSwap
 
 [![Available on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/endship-elytraswap)
